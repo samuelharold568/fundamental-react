@@ -1,0 +1,57 @@
+.form-container {
+  display: grid;
+  grid-template: repeat(3, 50px) 150px 50px / repeat(2, 1fr);
+  grid-template-areas: 
+    "title title"
+    ". limitcaracter"
+    "titlebook titlebook"
+    "textarea textarea"
+    "button button"
+  ;
+}
+
+.title-form {
+  grid-area: title;
+  justify-self: center;
+  color: white;
+}
+
+.limit-caracter {
+  grid-area: limitcaracter;
+  align-self: end;
+  justify-self: end;
+  color:white;
+}
+
+.book-title {
+  grid-area: titlebook;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding-left: 5px;
+  border-style: 1px;
+}
+
+.text-area {
+  grid-area: textarea;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.btn-summit {
+  grid-area: button;
+  height: 30px;
+  margin-top: 10px;
+  background-color: #FDB827;
+  border-width: 1px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+  font-weight: bold;
+}
+
+@media  (min-width: 768px) and (max-width: 992px) {
+  .form-container {
+    grid-area: form;
+  }
+}

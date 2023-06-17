@@ -1,0 +1,23 @@
+.detail {
+  max-width: 800px;
+  color: #3C84AB;
+}
+
+.detail-container {
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.btn-group-on-detail {
+  position: absolute;
+  top: 80%;
+  right: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.title-article-detail {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}

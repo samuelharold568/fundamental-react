@@ -1,0 +1,53 @@
+.register-page-container {
+  max-width: 700px;
+  width: 95%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  padding: 30px 5px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.register-page-container h2,
+.register-page-container p{
+  text-align: center;
+  margin: 15px;
+}
+
+.form-register-container {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+.form-register {
+  max-width: 500px;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+}
+
+.form-register input {
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+}
+
+.btn-register {
+  margin-top: 20px;
+  height: 35px;
+  border-width: 0.5px;
+  background-color: rgb(243, 200, 119);
+}
+
+/* @media  (min-width: 200px) and (max-width: 992px) {
+  .register-page {
+    margin-top: 15%;
+  }
+} */
